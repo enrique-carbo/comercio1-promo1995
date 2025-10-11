@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Countdown from './components/Countdown';
-import EventInfo from './components/EventInfo';
-import Agenda from './components/Agenda';
-import Menu from './components/Menu';
-import Gallery from './components/Gallery';
-import GraduatesGrid from './components/GraduatesGrid';
-import ConfirmationForm from './components/ConfirmationForm';
-import GreetingsWall from './components/GreetingsWall';
-import Footer from './components/Footer';
-import GraduatesListPage from './components/GraduatesListPage';
-import GalleryDetailPage from './components/GalleryDetailPage';
-import { Egresado, GalleryAlbum } from './types';
+import Header from '@/components/Header';
+import Hero from '@/components/Hero';
+import Countdown from '@/components/Countdown';
+import EventInfo from '@/components/EventInfo';
+import Agenda from '@/components/Agenda';
+import Menu from '@/components/Menu';
+import Gallery from '@/components/Gallery';
+import GraduatesGrid from '@/components/GraduatesGrid';
+import ConfirmationForm from '@/components/ConfirmationForm';
+import GreetingsWall from '@/components/GreetingsWall';
+import Footer from '@/components/Footer';
+import GraduatesListPage from '@/components/GraduatesListPage';
+import GalleryDetailPage from '@/components/GalleryDetailPage';
+import { Egresado, GalleryAlbum } from '@/types';
 
 const App: React.FC = () => {
   const eventDate = '2025-11-29T21:00:00';
@@ -33,8 +33,8 @@ const App: React.FC = () => {
     const fetchData = async () => {
         try {
             const [graduatesResponse, albumsResponse] = await Promise.all([
-                fetch('/data/egresados.json'),
-                fetch('/data/galleries.json')
+                fetch('data/egresados.json'),
+                fetch('data/galleries.json')
             ]);
             if (!graduatesResponse.ok || !albumsResponse.ok) {
                 throw new Error('Network response was not ok');
