@@ -1,0 +1,15 @@
+/* 1. Cargar Tailwind 4.0 */
+@import "tailwindcss";
+
+/* 2. Tu tema personalizado (equivalente al extend del CDN) */
+@theme {
+  /* colores */
+  --color-brand-primary: #109648;   /* Shamrock Green */
+  --color-brand-dark: #484349;      /* Jet */
+  --color-brand-light: #f7f0f0;     /* Snow */
+  --color-brand-text-light: #f7f0f0;
+  --color-brand-text-dark: #484349;
+
+  /* tipografía */
+  --font-family-sans: "Poppins", system-ui, sans-serif;
+}

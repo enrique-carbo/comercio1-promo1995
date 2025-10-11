@@ -1,0 +1,61 @@
+[
+  {
+    "title": "Acto de colación",
+    "slug": "acto-colacion",
+    "cover": "https://picsum.photos/seed/1995a/500/500?grayscale&blur=1",
+    "images": [
+      { "src": "https://picsum.photos/seed/1995a1/800/600", "alt": "Recibiendo el diploma" },
+      { "src": "https://picsum.photos/seed/1995a2/800/600", "alt": "Discurso de fin de año" },
+      { "src": "https://picsum.photos/seed/1995a3/800/600", "alt": "Abrazo grupal" },
+      { "src": "https://picsum.photos/seed/1995a4/800/600", "alt": "Brindis final" }
+    ]
+  },
+  {
+    "title": "Festejo en el patio",
+    "slug": "festejo-patio",
+    "cover": "https://picsum.photos/seed/1995b/500/500?grayscale&blur=1",
+    "images": [
+      { "src": "https://picsum.photos/seed/1995b1/800/600", "alt": "Guerra de espuma" },
+      { "src": "https://picsum.photos/seed/1995b2/800/600", "alt": "Música y amigos" },
+      { "src": "https://picsum.photos/seed/1995b3/800/600", "alt": "Foto grupal informal" }
+    ]
+  },
+  {
+    "title": "Equipo de deportes",
+    "slug": "equipo-deportes",
+    "cover": "https://picsum.photos/seed/1995c/500/500?grayscale&blur=1",
+    "images": [
+      { "src": "https://picsum.photos/seed/1995c1/800/600", "alt": "Equipo de fútbol '95" },
+      { "src": "https://picsum.photos/seed/1995c2/800/600", "alt": "Equipo de voley femenino" },
+      { "src": "https://picsum.photos/seed/1995c3/800/600", "alt": "Torneo intercolegial" }
+    ]
+  },
+  {
+    "title": "Viaje de egresados",
+    "slug": "viaje-egresados",
+    "cover": "https://picsum.photos/seed/1995d/500/500?grayscale&blur=1",
+    "images": [
+       { "src": "https://picsum.photos/seed/1995d1/800/600", "alt": "En el Cerro Catedral" },
+       { "src": "https://picsum.photos/seed/1995d2/800/600", "alt": "Noche de disco" },
+       { "src": "https://picsum.photos/seed/1995d3/800/600", "alt": "Circuito Chico" }
+    ]
+  },
+  {
+    "title": "Estudiantina",
+    "slug": "estudiantina",
+    "cover": "https://picsum.photos/seed/1995e/500/500?grayscale&blur=1",
+    "images": [
+       { "src": "https://picsum.photos/seed/1995e1/800/600", "alt": "Desfile de carrozas" },
+       { "src": "https://picsum.photos/seed/1995e2/800/600", "alt": "Construyendo la carroza" }
+    ]
+  },
+  {
+    "title": "Clase de contabilidad",
+    "slug": "clase-contabilidad",
+    "cover": "https://picsum.photos/seed/1995f/500/500?grayscale&blur=1",
+    "images": [
+      { "src": "https://picsum.photos/seed/1995f1/800/600", "alt": "Pizarrón con balances" },
+      { "src": "https://picsum.photos/seed/1995f2/800/600", "alt": "Estudiando para el final" }
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+
+[
+  { "id": 1, "nombre": "Abelardo Martinez", "division": "5to A" },
+  { "id": 2, "nombre": "Beatriz Gimenez", "division": "5to B" },
+  { "id": 3, "nombre": "Carlos Rodriguez", "division": "5to C" },
+  { "id": 4, "nombre": "Daniela Fernandez", "division": "5to A" },
+  { "id": 5, "nombre": "Esteban Lopez", "division": "5to B" },
+  { "id": 6, "nombre": "Florencia Soto", "division": "5to C" },
+  { "id": 7, "nombre": "Gastón Acosta", "division": "5to A" },
+  { "id": 8, "nombre": "Hernán Díaz", "division": "5to B" },
+  { "id": 9, "nombre": "Ivana Pereyra", "division": "5to C" },
+  { "id": 10, "nombre": "Julieta Morales", "division": "5to A" },
+  { "id": 11, "nombre": "Kevin Herrera", "division": "5to B" },
+  { "id": 12, "nombre": "Laura Nuñez", "division": "5to C" },
+  { "id": 13, "nombre": "Mariano Romero", "division": "5to A" },
+  { "id": 14, "nombre": "Natalia Castillo", "division": "5to B" },
+  { "id": 15, "nombre": "Oscar Benitez", "division": "5to C" },
+  { "id": 16, "nombre": "Patricia Molina", "division": "5to A" },
+  { "id": 17, "nombre": "Quintino Ruiz", "division": "5to B" },
+  { "id": 18, "nombre": "Roxana Vega", "division": "5to C" }
+]
