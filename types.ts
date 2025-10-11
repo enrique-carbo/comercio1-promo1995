@@ -1,5 +1,5 @@
 export interface Egresado {
-  id: number;
+  id: string;
   nombre: string;
   division: string;
 }

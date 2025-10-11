@@ -7,12 +7,13 @@ import Agenda from '@/components/Agenda';
 import Menu from '@/components/Menu';
 import Gallery from '@/components/Gallery';
 import GraduatesGrid from '@/components/GraduatesGrid';
-import ConfirmationForm from '@/components/ConfirmationForm';
 import GreetingsWall from '@/components/GreetingsWall';
 import Footer from '@/components/Footer';
 import GraduatesListPage from '@/components/GraduatesListPage';
 import GalleryDetailPage from '@/components/GalleryDetailPage';
 import { Egresado, GalleryAlbum } from '@/types';
+import { fetchAppData } from '@/api/dataService';
+import ConfirmationFormGoogle from './components/ConfirmationFormGoogle';
 
 const App: React.FC = () => {
   const eventDate = '2025-11-29T21:00:00';
@@ -30,29 +31,22 @@ const App: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    const fetchData = async () => {
+    const loadData = async () => {
         try {
-            const [graduatesResponse, albumsResponse] = await Promise.all([
-                fetch('data/egresados.json'),
-                fetch('data/galleries.json')
-            ]);
-            if (!graduatesResponse.ok || !albumsResponse.ok) {
-                throw new Error('Network response was not ok');
+            const { allGraduates, albums } = await fetchAppData();
+            setAllGraduates(allGraduates);
+            setAlbums(albums);
+        } catch (err) {
+            if (err instanceof Error) {
+                setError(err.message);
+            } else {
+                setError('Ocurrió un error inesperado al cargar los datos.');
             }
-            const graduatesData: Egresado[] = await graduatesResponse.json();
-            const albumsData: GalleryAlbum[] = await albumsResponse.json();
-            
-            setAllGraduates(graduatesData);
-            setAlbums(albumsData);
-
-        } catch (error) {
-            setError('No se pudieron cargar los datos de la página.');
-            console.error("Fetch error:", error);
         } finally {
             setIsLoading(false);
         }
     };
-    fetchData();
+    loadData();
   }, []);
 
   useEffect(() => {
@@ -114,7 +108,7 @@ const App: React.FC = () => {
             loading={isLoading} 
             error={error} 
         />
-        <ConfirmationForm />
+        <ConfirmationFormGoogle />
         <GreetingsWall />
       </main>
       <Footer />
