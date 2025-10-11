@@ -1,0 +1,8 @@
+[
+  { "id": "A1", "nombre": "Abelardo Martinez", "division": "5to A" },
+  { "id": "A2", "nombre": "Daniela Fernandez", "division": "5to A" },
+  { "id": "A3", "nombre": "Gastón Acosta", "division": "5to A" },
+  { "id": "A4", "nombre": "Julieta Morales", "division": "5to A" },
+  { "id": "A5", "nombre": "Mariano Romero", "division": "5to A" },
+  { "id": "A6", "nombre": "Patricia Molina", "division": "5to A" }
+]

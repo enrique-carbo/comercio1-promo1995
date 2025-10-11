@@ -1,0 +1,8 @@
+[
+  { "id": "C1", "nombre": "Carlos Rodriguez", "division": "5to C" },
+  { "id": "C2", "nombre": "Florencia Soto", "division": "5to C" },
+  { "id": "C3", "nombre": "Ivana Pereyra", "division": "5to C" },
+  { "id": "C4", "nombre": "Laura Nuñez", "division": "5to C" },
+  { "id": "C5", "nombre": "Oscar Benitez", "division": "5to C" },
+  { "id": "C6", "nombre": "Roxana Vega", "division": "5to C" }
+]
