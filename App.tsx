@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
-import Countdown from '@/components/Countdown';
 import EventInfo from '@/components/EventInfo';
 import Agenda from '@/components/Agenda';
 import Menu from '@/components/Menu';
@@ -14,6 +13,7 @@ import GalleryDetailPage from '@/components/GalleryDetailPage';
 import { Egresado, GalleryAlbum } from '@/types';
 import { fetchAppData } from '@/api/dataService';
 import ConfirmationFormGoogle from './components/ConfirmationFormGoogle';
+import CountdownTwo from './components/Countdown2';
 
 const App: React.FC = () => {
   const eventDate = '2025-11-29T21:00:00';
@@ -95,7 +95,7 @@ const App: React.FC = () => {
       <Header />
       <main>
         <Hero />
-        <Countdown targetDate={eventDate} />
+        <CountdownTwo targetDate={eventDate} />
         <EventInfo />
         <Agenda />
         <Menu />

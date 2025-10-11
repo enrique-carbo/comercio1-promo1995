@@ -24,7 +24,7 @@ const GraduatesGrid: React.FC<GraduatesGridProps> = ({ onSelectDivision, loading
 
     return (
         <Section id="egresados">
-            <SectionTitle>Nuestros Egresados '95</SectionTitle>
+            <SectionTitle>Egresados 1995</SectionTitle>
             {loading && <p className="text-center text-brand-primary">Cargando...</p>}
             {error && <p className="text-center text-red-500">{error}</p>}
             {!loading && !error && (
