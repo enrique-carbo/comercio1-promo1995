@@ -1,5 +1,15 @@
 [
   {
+    "title": "Reencuentro 20 Años (2015)",
+    "slug": "reencuentro-2015",
+    "cover": "images/egresadosA/egresadosA-web.jpg",
+    "images": [
+      { "src": "images/egresadosA/egresadosA-web.jpg", "alt": "Foto grupal del reencuentro de 20 años." },
+      { "src": "images/egresadosA/egresadosA-web-1.jpg", "alt": "Foto grupal del reencuentro de 20 años." },
+      { "src": "images/egresadosA/egresadosA-web-2.jpg", "alt": "Foto grupal del reencuentro de 20 años." }
+    ]
+  },
+  {
     "title": "Acto de colación",
     "slug": "acto-colacion",
     "cover": "https://picsum.photos/seed/1995a/500/500?grayscale&blur=1",
