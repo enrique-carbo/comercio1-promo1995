@@ -10,8 +10,9 @@ const Hero: React.FC = () => {
   };
 
   return (
-    <div className="relative pt-16 pb-20 text-center sm:pt-24 sm:pb-28 lg:pt-32 lg:pb-36">
-      <div className="absolute inset-0 bg-brand-dark">
+    <div className="relative pt-16 pb-20 text-center sm:pt-24 sm:pb-28 lg:pt-32 lg:pb-36 bg-cover bg-center" 
+    style={{ backgroundImage: `url('images/escuela-comercio.jpg')` }}>
+      <div className="absolute inset-0 bg-brand-dark/80">
         <div className="absolute inset-0 bg-grid-brand-primary/[0.05] [mask-image:linear-gradient(0deg,transparent,black)]"></div>
       </div>
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
