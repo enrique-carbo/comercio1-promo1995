@@ -6,7 +6,7 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    base: '/comercio1-promo1995/', 
+    base: '/', 
     server: {
       port: 3000,
       host: '0.0.0.0',
