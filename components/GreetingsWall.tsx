@@ -5,9 +5,9 @@ import Section, { SectionTitle } from "./Section";
 const initialGreetings: Saludo[] = [
   {
     id: 1,
-    nombre: "Ana García",
+    nombre: "Evangelina Zanneta",
     mensaje:
-      "¡Qué emoción! No puedo creer que ya pasaron 30 años. ¡Nos vemos ahí!",
+      "Vamos entrando en onda..fiesta retro?? 😄",
   },
   {
     id: 2,
