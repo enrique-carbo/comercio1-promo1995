@@ -17,12 +17,12 @@ const AgendaItem: React.FC<{ time: string; title: string; description: string }>
 
 const Agenda: React.FC = () => {
     const schedule = [
-        { time: '21:00', title: 'Recepción y Aperitivos', description: 'Comenzamos la noche con tragos, buena música y los primeros abrazos.' },
-        { time: '22:00', title: 'Cena de Reencuentro', description: 'Disfrutaremos de un menú especial mientras compartimos anécdotas.' },
-        { time: '23:30', title: 'Video de Recuerdos', description: 'Un viaje emotivo a nuestros días en la escuela con fotos y videos de 1995.' },
-        { time: '00:30', title: '¡A Bailar!', description: 'Nuestro DJ nos hará revivir los hits de los 90s y la mejor música actual.' },
-        { time: '03:00', title: 'Brindis y Torta', description: 'Un momento para brindar por estos 30 años y por muchos más reencuentros.' },
-        { time: '04:00', title: 'Fin de Fiesta', description: 'Despedida y promesas de no dejar pasar tanto tiempo para volver a vernos.' },
+        { time: '20:00', title: 'Llegan los primeros', description: 'Para los más ansiosos. Empezamos a reencontrarnos con una copa de bienvenida y buena charla.' },
+        { time: '21:00', title: 'Comienzo y Aperitivos', description: 'Ahora sí, ¡arrancamos! Tragos, música y una exquisita selección de bocaditos.' },
+        { time: '22:00', title: 'Comemos y tomamos algo', description: 'Disfrutaremos de un menú especial para ponernos al día con todas las anécdotas.' },
+        { time: '00:00', title: '¡A Bailar! Hits de los 90s', description: 'El DJ nos hará revivir la mejor música de nuestra época y los hits actuales.' },
+        { time: '01:30', title: 'Brindis, Torta y Fotos', description: 'Un momento para brindar por estos 30 años y capturar el recuerdo para siempre.' },
+        { time: '02:00', title: 'Fin de Fiesta', description: 'La noche termina, pero los recuerdos quedan. ¡Hasta la próxima!' },
     ];
 
     return (

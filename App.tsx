@@ -16,7 +16,7 @@ import ConfirmationFormGoogle from './components/ConfirmationFormGoogle';
 import CountdownTwo from './components/Countdown2';
 
 const App: React.FC = () => {
-  const eventDate = '2025-11-29T21:00:00';
+  const eventDate = '2025-11-28T20:00:00';
 
   // State for navigation/views
   const [selectedDivision, setSelectedDivision] = useState<string | null>(null);
