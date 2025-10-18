@@ -10,6 +10,16 @@
     ]
   },
   {
+    "title": "Quincho CPCEER 2025",
+    "slug": "quincho-cpceer",
+    "cover": "images/quincho-cpceer/cpceer-quincho-1.jpeg",
+    "images": [
+      { "src": "images/quincho-cpceer/cpceer-quincho.jpeg", "alt": "Foto Quincho CPCEER." },
+      { "src": "images/quincho-cpceer/cpceer-quincho-2.jpeg", "alt": "Foto Quincho CPCEER." },
+      { "src": "images/quincho-cpceer/cpceer-quincho-3.jpeg", "alt": "Foto Quincho CPCEER." }
+    ]
+  },
+  {
     "title": "Acto de colación",
     "slug": "acto-colacion",
     "cover": "https://picsum.photos/seed/1995a/500/500?grayscale&blur=1",
@@ -48,15 +58,6 @@
        { "src": "https://picsum.photos/seed/1995d1/800/600", "alt": "En el Cerro Catedral" },
        { "src": "https://picsum.photos/seed/1995d2/800/600", "alt": "Noche de disco" },
        { "src": "https://picsum.photos/seed/1995d3/800/600", "alt": "Circuito Chico" }
-    ]
-  },
-  {
-    "title": "Estudiantina",
-    "slug": "estudiantina",
-    "cover": "https://picsum.photos/seed/1995e/500/500?grayscale&blur=1",
-    "images": [
-       { "src": "https://picsum.photos/seed/1995e1/800/600", "alt": "Desfile de carrozas" },
-       { "src": "https://picsum.photos/seed/1995e2/800/600", "alt": "Construyendo la carroza" }
     ]
   },
   {
