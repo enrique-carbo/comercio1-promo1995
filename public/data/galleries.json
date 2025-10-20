@@ -1,15 +1,4 @@
-[
-  {
-    "title": "Reencuentro 20 Años (2015)",
-    "slug": "reencuentro-2015",
-    "cover": "images/egresadosA/egresadosA-web.jpg",
-    "images": [
-      { "src": "images/egresadosA/egresadosA-web.jpg", "alt": "Foto grupal del reencuentro de 20 años." },
-      { "src": "images/egresadosA/egresadosA-web-1.jpg", "alt": "Foto grupal del reencuentro de 20 años." },
-      { "src": "images/egresadosA/egresadosA-web-2.jpg", "alt": "Foto grupal del reencuentro de 20 años." }
-    ]
-  },
-  {
+[{
     "title": "Quincho CPCEER 2025",
     "slug": "quincho-cpceer",
     "cover": "images/quincho-cpceer/cpceer-quincho-1.jpeg",
@@ -20,53 +9,47 @@
     ]
   },
   {
+    "title": "Reencuentro",
+    "slug": "reencuentro",
+    "cover": "images/egresadosA/egresadosA-web.jpg",
+    "images": [
+      { "src": "images/egresadosA/egresadosA-web.jpg", "alt": "Foto grupal." },
+      { "src": "images/egresadosA/egresadosA-web-1.jpg", "alt": "Foto grupal del reencuentro." },
+      { "src": "images/egresadosA/egresadosA-web-2.jpg", "alt": "Foto grupal del reencuentro." }
+    ]
+  },  
+  {
+    "title": "Bariloche 1995",
+    "slug": "bariloche-1995",
+    "cover": "images/bariloche95/bariloche1995-web2.jpg",
+    "images": [
+      { "src": "images/bariloche95/bariloche1995-web.jpg", "alt": "Bariloche 1995" },
+      { "src": "images/bariloche95/bariloche1995-web1.jpg", "alt": "Bariloche 1995" },
+      { "src": "images/bariloche95/bariloche1995-web2.jpg", "alt": "Bariloche 1995" },
+      { "src": "images/bariloche95/bariloche1995-web3.jpg", "alt": "Bariloche 1995" }
+    ]
+  },
+  {
     "title": "Acto de colación",
     "slug": "acto-colacion",
-    "cover": "https://picsum.photos/seed/1995a/500/500?grayscale&blur=1",
+    "cover": "images/colacion95/comerciouno-colacion95-web2.jpg",
     "images": [
-      { "src": "https://picsum.photos/seed/1995a1/800/600", "alt": "Recibiendo el diploma" },
-      { "src": "https://picsum.photos/seed/1995a2/800/600", "alt": "Discurso de fin de año" },
-      { "src": "https://picsum.photos/seed/1995a3/800/600", "alt": "Abrazo grupal" },
-      { "src": "https://picsum.photos/seed/1995a4/800/600", "alt": "Brindis final" }
+      { "src": "images/colacion95/comerciouno-colacion95-web.jpg", "alt": "Acto de Colación" },
+      { "src": "images/colacion95/comerciouno-colacion95-web1.jpg", "alt": "Acto de Colación" },
+      { "src": "images/colacion95/comerciouno-colacion95-web2.jpg", "alt": "Acto de Colación" },
+      { "src": "images/colacion95/comerciouno-colacion95-web3.jpg", "alt": "Acto de Colación" }
     ]
   },
   {
-    "title": "Festejo en el patio",
-    "slug": "festejo-patio",
-    "cover": "https://picsum.photos/seed/1995b/500/500?grayscale&blur=1",
+    "title": "Recepción 1995",
+    "slug": "recepcion-1995",
+    "cover": "images/recepcion95/comerciouno-recepcion1995-web2.jpg",
     "images": [
-      { "src": "https://picsum.photos/seed/1995b1/800/600", "alt": "Guerra de espuma" },
-      { "src": "https://picsum.photos/seed/1995b2/800/600", "alt": "Música y amigos" },
-      { "src": "https://picsum.photos/seed/1995b3/800/600", "alt": "Foto grupal informal" }
-    ]
-  },
-  {
-    "title": "Equipo de deportes",
-    "slug": "equipo-deportes",
-    "cover": "https://picsum.photos/seed/1995c/500/500?grayscale&blur=1",
-    "images": [
-      { "src": "https://picsum.photos/seed/1995c1/800/600", "alt": "Equipo de fútbol '95" },
-      { "src": "https://picsum.photos/seed/1995c2/800/600", "alt": "Equipo de voley femenino" },
-      { "src": "https://picsum.photos/seed/1995c3/800/600", "alt": "Torneo intercolegial" }
-    ]
-  },
-  {
-    "title": "Viaje de egresados",
-    "slug": "viaje-egresados",
-    "cover": "https://picsum.photos/seed/1995d/500/500?grayscale&blur=1",
-    "images": [
-       { "src": "https://picsum.photos/seed/1995d1/800/600", "alt": "En el Cerro Catedral" },
-       { "src": "https://picsum.photos/seed/1995d2/800/600", "alt": "Noche de disco" },
-       { "src": "https://picsum.photos/seed/1995d3/800/600", "alt": "Circuito Chico" }
-    ]
-  },
-  {
-    "title": "Clase de contabilidad",
-    "slug": "clase-contabilidad",
-    "cover": "https://picsum.photos/seed/1995f/500/500?grayscale&blur=1",
-    "images": [
-      { "src": "https://picsum.photos/seed/1995f1/800/600", "alt": "Pizarrón con balances" },
-      { "src": "https://picsum.photos/seed/1995f2/800/600", "alt": "Estudiando para el final" }
+      { "src": "images/recepcion95/comerciouno-recepcion1995-web.jpg", "alt": "Fiesta de Recepción" },
+      { "src": "images/recepcion95/comerciouno-recepcion1995-web1.jpg", "alt": "Fiesta de Recepción" },
+      { "src": "images/recepcion95/comerciouno-recepcion1995-web2.jpg", "alt": "Fiesta de Recepción" },
+      { "src": "images/recepcion95/comerciouno-recepcion1995-web3.jpg", "alt": "Fiesta de Recepción" }
     ]
   }
+  
 ]

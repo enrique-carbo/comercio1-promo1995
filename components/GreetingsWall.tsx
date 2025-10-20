@@ -11,8 +11,8 @@ const initialGreetings: Saludo[] = [
   },
   {
     id: 2,
-    nombre: "Martín Gonzalez",
-    mensaje: "Contando los días para el reencuentro. ¡Preparen las anécdotas!",
+    nombre: "Enrique Carbo",
+    mensaje: "Que la disfruten mucho!!",
   },
 ];
 
