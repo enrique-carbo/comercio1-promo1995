@@ -3,7 +3,7 @@ import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import EventInfo from '@/components/EventInfo';
 import Agenda from '@/components/Agenda';
-import Menu from '@/components/Menu';
+//import Menu from '@/components/Menu';
 import Gallery from '@/components/Gallery';
 import GraduatesGrid from '@/components/GraduatesGrid';
 import GreetingsWall from '@/components/GreetingsWall';
@@ -98,7 +98,7 @@ const App: React.FC = () => {
         <CountdownTwo targetDate={eventDate} />
         <EventInfo />
         <Agenda />
-        <Menu />
+        {/*<Menu />*/}
         <Gallery 
           albums={albums} 
           onSelectAlbum={handleSelectAlbum} 

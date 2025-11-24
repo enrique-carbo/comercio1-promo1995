@@ -15,7 +15,8 @@
     "images": [
       { "src": "images/egresadosA/egresadosA-web.jpg", "alt": "Foto grupal." },
       { "src": "images/egresadosA/egresadosA-web-1.jpg", "alt": "Foto grupal del reencuentro." },
-      { "src": "images/egresadosA/egresadosA-web-2.jpg", "alt": "Foto grupal del reencuentro." }
+      { "src": "images/egresadosA/egresadosA-web-2.jpg", "alt": "Foto grupal del reencuentro." },
+      { "src": "images/egresadosA/foto-grupal.jpg", "alt": "Foto grupal del reencuentro." }
     ]
   },  
   {
