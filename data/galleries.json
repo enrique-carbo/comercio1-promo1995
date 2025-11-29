@@ -1,4 +1,18 @@
 [{
+    "title": "30 años",
+    "slug": "30-anos",
+    "cover": "images/30anos/30anos-5.jpg",
+    "images": [
+      { "src": "images/30anos/30anos.jpg", "alt": "Foto 30 años." },
+      { "src": "images/30anos/30anos-2.jpg", "alt": "Foto 30 años." },
+      { "src": "images/30anos/30anos-3.jpg", "alt": "Foto 30 años." },
+      { "src": "images/30anos/30anos-4.jpg", "alt": "Foto 30 años." },
+      { "src": "images/30anos/30anos-5.jpg", "alt": "Foto 30 años." },
+      { "src": "images/30anos/30anos-6.jpg", "alt": "Foto 30 años." },
+      { "src": "images/30anos/30anos-7.jpg", "alt": "Foto 30 años." }
+    ]
+  },
+  {
     "title": "Quincho CPCEER 2025",
     "slug": "quincho-cpceer",
     "cover": "images/quincho-cpceer/cpceer-quincho-1.jpeg",
@@ -27,7 +41,8 @@
       { "src": "images/bariloche95/bariloche1995-web.jpg", "alt": "Bariloche 1995" },
       { "src": "images/bariloche95/bariloche1995-web1.jpg", "alt": "Bariloche 1995" },
       { "src": "images/bariloche95/bariloche1995-web2.jpg", "alt": "Bariloche 1995" },
-      { "src": "images/bariloche95/bariloche1995-web3.jpg", "alt": "Bariloche 1995" }
+      { "src": "images/bariloche95/bariloche1995-web3.jpg", "alt": "Bariloche 1995" },
+      { "src": "images/bariloche95/bariloche1995-web4.jpg", "alt": "Bariloche 1995" }
     ]
   },
   {
@@ -50,6 +65,16 @@
       { "src": "images/recepcion95/comerciouno-recepcion1995-web1.jpg", "alt": "Fiesta de Recepción" },
       { "src": "images/recepcion95/comerciouno-recepcion1995-web2.jpg", "alt": "Fiesta de Recepción" },
       { "src": "images/recepcion95/comerciouno-recepcion1995-web3.jpg", "alt": "Fiesta de Recepción" }
+    ]
+  },
+  {
+    "title": "Todo un poco",
+    "slug": "todo-un-poco",
+    "cover": "images/aulas/atc-1.jpg",
+    "images": [
+      { "src": "images/aulas/atc-1.jpg", "alt": "Buenos Aires" },
+      { "src": "images/aulas/aula.jpg", "alt": "En el aula" },
+      { "src": "images/aulas/aula-1.jpg", "alt": "En el aula" }
     ]
   }
   
