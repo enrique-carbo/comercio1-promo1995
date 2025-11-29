@@ -21,10 +21,10 @@ const Hero: React.FC = () => {
           <span className="block text-brand-primary">30 Años No Es Nada</span>
         </h1>
         <p className="mt-6 max-w-md mx-auto text-lg text-brand-text-light sm:text-xl md:mt-8 md:max-w-3xl text-balance">
-          Prepárate para una noche inolvidable de reencuentro, recuerdos y celebración.
+          Pasamos una noche inolvidable de reencuentro, recuerdos y celebración.
           Escuela de Comercio N°1 "Cap. Gral. Justo José de Urquiza", Paraná, Entre Ríos.
         </p>
-        <div className="mt-8 max-w-md mx-auto sm:flex sm:justify-center md:mt-10">
+        {/* <div className="mt-8 max-w-md mx-auto sm:flex sm:justify-center md:mt-10">
           <div className="rounded-md shadow">
             <a
               href="#confirmar"
@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
               Confirmar Asistencia
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

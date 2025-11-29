@@ -12,8 +12,8 @@ import GraduatesListPage from '@/components/GraduatesListPage';
 import GalleryDetailPage from '@/components/GalleryDetailPage';
 import { Egresado, GalleryAlbum } from '@/types';
 import { fetchAppData } from '@/api/dataService';
-import ConfirmationFormGoogle from './components/ConfirmationFormGoogle';
-import CountdownTwo from './components/Countdown2';
+//import ConfirmationFormGoogle from './components/ConfirmationFormGoogle';
+//import CountdownTwo from './components/Countdown2';
 
 const App: React.FC = () => {
   const eventDate = '2025-11-28T20:00:00';
@@ -95,7 +95,7 @@ const App: React.FC = () => {
       <Header />
       <main>
         <Hero />
-        <CountdownTwo targetDate={eventDate} />
+        {/* <CountdownTwo targetDate={eventDate} /> */}
         <EventInfo />
         <Agenda />
         {/*<Menu />*/}
@@ -108,7 +108,7 @@ const App: React.FC = () => {
             loading={isLoading} 
             error={error} 
         />
-        <ConfirmationFormGoogle />
+        {/* <ConfirmationFormGoogle /> */}
         <GreetingsWall />
       </main>
       <Footer />

@@ -18,7 +18,7 @@ const Header: React.FC = () => {
     { href: '#agenda', text: 'Agenda' },
     { href: '#galeria', text: 'Galería' },
     { href: '#egresados', text: 'Egresados' },
-    { href: '#confirmar', text: 'Confirmar' },
+    // { href: '#confirmar', text: 'Confirmar' },
     { href: '#saludos', text: 'Saludos' },
   ];
 
