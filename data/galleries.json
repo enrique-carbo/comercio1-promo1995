@@ -73,6 +73,7 @@
     "cover": "images/aulas/atc-1.jpg",
     "images": [
       { "src": "images/aulas/atc-1.jpg", "alt": "Buenos Aires" },
+      { "src": "images/aulas/paseo.jpg", "alt": "De Paseo" },
       { "src": "images/aulas/aula.jpg", "alt": "En el aula" },
       { "src": "images/aulas/aula-1.jpg", "alt": "En el aula" }
     ]
